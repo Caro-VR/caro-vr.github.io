@@ -1,0 +1,13 @@
+.footer {
+    width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.foo {
+    color: red;
+  
+    @include respond-to('large') {
+      color: blue;
+    }
+}
