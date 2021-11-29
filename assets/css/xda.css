@@ -1,0 +1,146 @@
+@charset "UTF-8";
+h1 {
+  font-family: "Old Standard TT", serif;
+}
+
+h5 {
+  font-family: "Raleway regular", sans-serif;
+  color: #0c0910;
+  margin-top: 6px;
+}
+
+h2 {
+  font-family: "Old Standard TT", serif;
+}
+
+.ropa {
+  display: block;
+}
+@media (min-width: 1300px) {
+  .ropa {
+    display: flex;
+  }
+}
+
+.ropa article {
+  margin-top: 0px;
+}
+@media (min-width: 1300px) {
+  .ropa article {
+    margin-top: 94px;
+  }
+}
+
+.caja-texto {
+  width: 100%;
+  text-align: left;
+}
+@media (min-width: 1300px) {
+  .caja-texto {
+    width: 40%;
+  }
+}
+
+/* Estilo del boton cuando se pasa el mouse por encima*/
+label:hover {
+  background: grey;
+}
+
+/* Estilo del boton cuando el menú está expandido*/
+input:checked ~ label {
+  background: lightgrey;
+}
+
+.logo-mobile {
+  width: 100%;
+  display: block;
+  margin-top: 96px;
+}
+@media (min-width: 1300px) {
+  .logo-mobile {
+    display: none;
+  }
+}
+
+.logo-full {
+  display: none;
+}
+@media (min-width: 1300px) {
+  .logo-full {
+    display: block;
+    width: 60%;
+  }
+}
+
+.navbar {
+  font-family: "Old Standard TT bold", serif;
+  box-sizing: border-box;
+  font-size: 20px;
+  padding: 0px;
+  color: #0c0910;
+}
+
+.bg-light {
+  background-color: #fff !important;
+}
+
+.logo-izquierda {
+  color: white;
+  background: black;
+  margin-bottom: 0px;
+}
+
+section {
+  text-align: center;
+}
+
+.collape {
+  text-align: right;
+  padding: 30px;
+  display: none;
+}
+
+.navigation {
+  min-height: 0;
+  padding: 0;
+}
+
+input:checked ~ ul {
+  display: block;
+}
+
+label {
+  box-sizing: border-box;
+  display: inline-block;
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  font-weight: bold;
+  text-align: center;
+  user-select: none;
+}
+
+.etiqueta {
+  border: 2px solid black;
+  text-align: center;
+  width: 160px;
+  height: 40px;
+  box-sizing: border-box;
+}
+
+p {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+.caja-negra {
+  color: white;
+  background: black;
+  box-sizing: border-box;
+  padding: 5px;
+  width: 90%;
+}
+
+/*# sourceMappingURL=xda.css.map */

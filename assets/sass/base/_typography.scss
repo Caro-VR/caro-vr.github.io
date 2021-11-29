@@ -1,7 +1,68 @@
-* {
-    box-sizing: border-box;
+h1 {
+    font-family: 'Old Standard TT', serif;
 }
 
-body {
-    font-family: monospace;
+
+h5 {
+    font-family: 'Raleway regular', sans-serif;
+    color: #0c0910;
+    margin-top: 6px;
+}
+
+h2 {
+    font-family: 'Old Standard TT', serif;
+}
+
+.ropa {
+    display: block;
+
+    @media(min-width: 1300px) {
+        display: flex;
+    }
+}
+
+.ropa article {
+    margin-top: 0px;
+
+    @media(min-width: 1300px) {
+        margin-top: 94px;
+    }
+}
+
+.caja-texto {
+    width: 100%;
+    text-align: left;
+
+    @media(min-width: 1300px) {
+        width: 40%;
+    }
+}
+
+/* Estilo del boton cuando se pasa el mouse por encima*/
+label:hover{
+    background: grey;
+}
+    
+/* Estilo del boton cuando el menú está expandido*/
+input:checked ~ label {
+    background: lightgrey; 
+}
+
+.logo-mobile {
+    width: 100%;
+    display: block;
+    margin-top: 96px;
+
+    @media (min-width: 1300px) {
+        display: none;
+    }
+}
+
+.logo-full {
+    display: none;
+
+    @media(min-width: 1300px) {
+        display: block;
+        width: 60%;
+    }
 }
